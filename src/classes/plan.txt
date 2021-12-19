@@ -1,0 +1,3 @@
+each consolemon has a: 
+    name: it's identifier
+    type: it's class type -> [water, fire, earth, air, plant, electric]
