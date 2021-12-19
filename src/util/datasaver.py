@@ -33,10 +33,18 @@ class Datasaver:
                 file.write(to_write)
 
     # creates a variable in the saved data file
-    def create_variable(self, name, value):
-        if not self.has_variable:
-            with open(self.path, 'w') as file:
-                file.write(name + "|" + str(value))
+    def create_variable(self, name, value, type):
+        if not self.has_variable(name):
+            with open(self.path, 'a') as file:
+                if type == "string" or type == "int" or type == "boolean":
+                    file.write("\n" + name + "|" + str(value))
+                elif type == "array":
+                    to_write = ""
+                    for element in value:
+                        to_write += str(element)
+                        if element != value[len(value) - 1]:
+                            to_write += ","
+                    file.write("\n" + name + "|" + to_write)
                 self.dict.append(name)
 
     def delete_variable(self, name):
@@ -48,7 +56,7 @@ class Datasaver:
 
             for line in file_data_arr:
                 if line.split("|")[0] != name:
-                    to_write += line + "\n"
+                    to_write += "\n" + line
 
             with open(self.path, 'w') as file:
                 file.write(to_write)

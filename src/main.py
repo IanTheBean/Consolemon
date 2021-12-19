@@ -1,5 +1,4 @@
 from util.datasaver import Datasaver
 
 datasaver = Datasaver('data/savedata.txt')
-datasaver.change_variable("coins", 120)
-datasaver.delete_variable("virus")
+datasaver.create_variable("item_ids", [10, 12, 42, 12, 55], "array")
