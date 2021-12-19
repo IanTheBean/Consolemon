@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abeb2c1d-0b25-4f04-aeaa-bdcf40df4a06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classes/moves.py" afterDir="false" />
+    <list default="true" id="abeb2c1d-0b25-4f04-aeaa-bdcf40df4a06" name="Changes" comment="did stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/consolemon.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/consolemon.py" afterDir="false" />
     </list>
@@ -73,8 +72,16 @@
       <updated>1639779616859</updated>
       <workItem from="1639779618683" duration="9000" />
       <workItem from="1639867703878" duration="32000" />
-      <workItem from="1639951567833" duration="1742000" />
+      <workItem from="1639951567833" duration="3164000" />
     </task>
+    <task id="LOCAL-00001" summary="did stuff">
+      <created>1639953425171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639953425171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +97,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="did stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="did stuff" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Consolemon$consolemon.coverage" NAME="consolemon Coverage Results" MODIFIED="1639952365393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/classes" />

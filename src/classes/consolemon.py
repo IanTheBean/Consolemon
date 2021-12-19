@@ -5,4 +5,7 @@ class Consolemon:
         self.name = name
         self.hp = hp
         self.ftype = ftype
+        self.moves = []
 
+    def addMove(self, move):
+        self.moves.append(move)
